@@ -32,16 +32,20 @@ void Print_keywords()
     printf("\n union\n");
     printf("\n unsigned\n");
     printf("\n void\n");
-    printf("\n volatile\n");
-    printf("\n _Alignas\n");
+    printf("\n volatile: bajo nivel\n");
+    printf("\n while\n");
+    printf("\n \n No vamos a utilizar \n\n");
+    printf("\n _Alignas: alinear variables segun otro tipo de datos\n");
     printf("\n _Alignof\n");
-    printf("\n _Atomic\n");
-    printf("\n _Bool\n");
-    printf("\n _Complex\n");
-    printf("\n _Generic\n");
-    printf("\n _Imaginary\n");
-    printf("\n _Noreturn\n");
+    printf("\n _Generic: sobrecarga de nombres para preprocesador\n");
+    printf("\n _Atomic: multi hilos\n");
+    printf("\n _Noreturn: como llamar a la funcion abort\n");
     printf("\n _Static_assert\n");
-    printf("\n _Thread_local\n");
+    printf("\n _Thread_local:\n");
+    printf("\n \n -------------------\n\n");
+    printf("\n _Bool: c originalmente no lo tenia\n");
+    printf("\n _Complex\n");
+    printf("\n _Imaginary\n");
+
     printf("\n \n");
 }
